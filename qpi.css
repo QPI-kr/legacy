@@ -6,7 +6,7 @@ header {
   background-color: #DF8181;
   background-position: right;
   background-repeat: no-repeat;
-  background-image: url(/images/main.png);
+  background-image: url(./images/main.png);
 }
 img.logo-img {
   width: 80px;
