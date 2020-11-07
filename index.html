@@ -5,18 +5,26 @@
   <meta charset="UTF-8">
   <meta name="viewport"
     content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
-  <meta property="og:url" content="https://qpi.kr" />
-  <link rel="shortcut icon" href="./images/logo.png" />
-  <meta property="og:description" content="초대받은 좋은 사람들만, 큐피" />
-  <meta property="og:title" content="큐피" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
   <link href="./common.css" rel="stylesheet">
   <link href="./qpi.css" rel="stylesheet">
   <title>큐피</title>
+  <link rel="shortcut icon" href="./images/logo.png" />
+  <meta property="og:url" content="https://qpi.kr" />
+  <meta property="og:description" content="초대받은 좋은 사람들만, 큐피" />
+  <meta property="description" content="초대받은 좋은 사람들만, 큐피" />
+  <meta property="og:title" content="큐피" />
+
+
+
 </head>
 
 <body>
 
+  <div class="countdown">
+    <img class="tree-img" src="./images/tree.png" />
+    <div class="countdown-date" id="countdown-date">D-Day</div>
+  </div>
   <header class="bg-primary-1" id="home">
 
     <div class="nav-container">
@@ -191,6 +199,17 @@
 
     © 2020. 큐피 Co. all rights reserved.
   </footer>
+  <script>
+    var Dday = new Date(2020, 11, 25);
+    var now = new Date();
+
+    var gap = now.getTime() - Dday.getTime();
+    var DdayDate = Math.floor(gap / (1000 * 60 * 60 * 24)) * -1;
+
+
+    document.getElementById("countdown-date").innerHTML = "D-" + DdayDate;
+
+  </script>
 </body>
 
 </html>

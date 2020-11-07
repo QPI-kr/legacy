@@ -327,3 +327,24 @@ footer{
     display:block;
   }
  }
+
+/* Countdown */
+.tree-img {
+  width: 70px;
+}
+
+.countdown {
+  position: fixed;
+  z-index: 10;
+  padding: 20px;
+  box-sizing:border-box;
+  bottom: 0px;
+  text-align: center;
+}
+
+.countdown-date {
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-shadow: 2px 2px 5px #000000;
+}
