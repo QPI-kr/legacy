@@ -24,14 +24,14 @@
       <nav>
         <a href="#home" onClick="document.getElementById('home').scrollIntoView();">홈</a>
         <a href="#about">이야기</a>
-        <a href="#service">큐피 장점</a>
-        <a href="#flow">진행 과정</a>
-        <a href="#review">고객 리뷰</a>
+        <a href="#service">큐피만의장점</a>
+        <a href="#flow">진행과정</a>
+        <a href="#review">고객리뷰</a>
       </nav>
     </div>
-    <div class=header-content>
+    <div class="header-content">
       <div>
-        <div class="main-text"> 초대받은 좋은 사람들만, 큐피</div>
+        <div class=" main-text"> 초대받은 좋은 사람들만, 큐피</div>
         <div class="sub-text">지인 기반 화상 소개팅 서비스</div>
       </div>
 
@@ -43,16 +43,16 @@
   </header>
 
   <section id="about" class="text-center">
-    <div class="slogan-content"><b>8월 베타테스트 100명 참여</b><br />
+    <h2 class="slogan-content"><b>8월 베타테스트 100명 참여</b><br />
       <b>60% 에프터 성공, 8명의 커플 탄생</b><br />
       <br />
       <b>소개팅은 어렵지만, 큐피는 쉬워요</b><br />
       큐피는 당신의 취향에 맞는 상대를 제안해요<br />
-      바쁜 당신은 <b>선택</b>만 하면 돼요</div>
+      바쁜 당신은 <b>선택</b>만 하면 돼요</h2>
 
   </section>
 
-  <section id="service">
+  <section id="service" class="container">
     <h2>큐피만의 장점</h2>
     <div class="service-desc">큐피에선 좋은 사람을 쉽게 만날 수 있어요</div>
 
@@ -61,19 +61,19 @@
 
         <div class="service-img"> <img src="./images/service_1.png" /></div>
         <div class="service-item-title">초대받은 좋은사람</div>
-        <div class="service-item-desc">큐피는 기존 멤버의 초대로만 가입이 가능해요<br />
+        <div class="service-item-desc desc">기존 멤버의 초대로만 가입이 가능해요<br />
           좋은 사람의 친구는 좋은 사람일 가능성이 높아요</div>
       </div>
       <div class="service-item">
         <div class="service-img"><img src="./images/service_2.png" /></div>
         <div class="service-item-title">간편한 매칭 과정</div>
-        <div class="service-item-desc">큐피는 카톡으로 상대방의 프로필을 제안해요<br />
+        <div class="service-item-desc desc">카톡으로 상대방의 프로필을 제안해요<br />
           당신은 만날지 말지만 정하면 돼요</div>
       </div>
       <div class="service-item">
         <div class="service-img"><img src="./images/service_3.png" /></div>
         <div class="service-item-title">시간 & 비용 절약</div>
-        <div class="service-item-desc">큐피의 소개팅은 화상으로 진행돼요<br />
+        <div class="service-item-desc desc">큐피의 소개팅은 화상으로 진행돼요<br />
           먼저 대화해보고 실제로 만나도 늦지 않아요</div>
       </div>
     </div>
@@ -96,8 +96,10 @@
           <div class="flow-subtitle">
             신청만 해도, 반은 성공!
           </div>
-          <div class="flow-desc">
-            큐피는 5가지 요소를 바탕으로 당신의 취향을 파악해요.<br />
+          <div class="flow-desc desc">
+            5가지 요소를 바탕으로 당신의 취향을 파악해요.<br />
+          </div>
+          <div class="flow-desc desc">
             질문에 답하다 보면, 당신이 어떤 사람을 찾는지 알게 될 거에요.
           </div>
 
@@ -112,8 +114,8 @@
           <div class="flow-subtitle">
             바쁜 당신은, 선택만!
           </div>
-          <div class="flow-desc">
-            신청이 접수되면, 당신의 취향을 고려한 매칭이 시작돼요. <br />
+          <div class="flow-desc desc">
+            신청이 접수되면, 당신의 취향을 <br />고려한 매칭이 시작돼요. <br />
             양쪽이 모두 수락하면 소개팅이 성사되었네요
           </div>
 
@@ -128,10 +130,12 @@
           <div class="flow-subtitle">
             불편한 소개팅은, 그만!
           </div>
-          <div class="flow-desc">
+          <div class="flow-desc desc">
             큐피에선 소개팅이 화상으로 진행돼요. <br />
             실제로 만날지는 대화해보고 결정해도 늦지 않아요 <br />
-            (단, 오프라인을 선호하는 경우 저희에게 말씀해주세요)
+          </div>
+          <div class="flow-desc desc">
+            (오프라인을 선호하는 경우 저희에게 말씀해주세요)
           </div>
 
         </div>
@@ -144,12 +148,49 @@
 
     <div class="container">
       <h2>고객 리뷰</h2>
+      <div class="review-items">
+
+        <div class="review-item">
+          <img class="review-avatar" src="./images/review_1.png" />
+          <div class="review-content">
+            <div class="reviewer-name">
+              제이슨 (31, 의료계)
+            </div>
+            <div class="review-text">
+              큐피를 쓰고 제일 좋았던건, 다른 데이팅앱과 다르게 진중한 연애를 지향하여 만들어졌다는 점이었어요.
+              사실 다른 데이팅앱도 이것저것 해봤는데, 뭔가 신뢰할만한 사람을 만나기가 어려웠어요.
+              이 사람이 이상한 사람이 아닐까, 불안하게 출발하니까 시간만 낭비하게 되는거 같더라구요.
+              큐피를 진중한 만남을 찾는 사람들한테 맞는 서비스인거 같아서, 주변 친구들한테 적극 추천중이에요
+
+            </div>
+          </div>
+        </div>
+        <div class="review-item">
+          <img class="review-avatar" src="./images/review_2.png" />
+          <div class="review-content">
+            <div class="reviewer-name">
+              제니 (29, 영어교육)
+            </div>
+            <div class="review-text">
+              바쁜데 연애는 하고싶고, 그렇다고 코로나 때문에 예전처럼 맘편히 모임에 나가기 어려워, 친구가 추천해준 큐피를 시작하게 됐어요!
+              마침 지인들에게 받는 소개팅에 한계를 느끼고 있었고, 큐피가 화상 소개팅을 제공한다는 점에 가장 끌렸어요.
+              서로 프로필을 먼저 확인하고 응할 수 있고 또 화상으로 첫만남을 가지게 되니 불필요한 시간을 세이브해준다는 점이 가장 좋았어요.
+              그리고 지인을 통해 받는 소개팅처럼 보장된 분들이라는 점도 좋았어요.
+              보통 데이팅앱은 여자들이 사용하기에 조금 불안한 감이 있는데 큐피는 앞으로도 믿고 사용할 수 있을 것 같습니다!
+
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
 
 
   </section>
-  <footer></footer>
+  <footer>
+
+    © 2020. 큐피 Co. all rights reserved.
+  </footer>
 </body>
 
 </html>

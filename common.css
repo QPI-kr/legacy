@@ -3,10 +3,11 @@ body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.9);
   }
   h1,h2,h3{
     margin:0px;
+    color: rgba(0, 0, 0, 0.85);
   }
   
   a{
