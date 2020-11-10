@@ -328,7 +328,7 @@ footer{
     width: auto;
   }
   header {
-  height: 100vh;
+  height: 720px;
   background-position: bottom;
   background-image: url(./images/main-mobile.png);
   background-size: 70%;
