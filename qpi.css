@@ -324,7 +324,7 @@ footer{
     display: flex;
     padding: 20vh 15px;
     flex-direction: column;
-    height: 100vh;
+    height: 750px;
     width: auto;
   }
   header {
