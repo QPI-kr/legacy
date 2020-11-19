@@ -300,7 +300,24 @@ footer{
   text-shadow: 2px 2px 5px #000000ba;
 }
 
-
+/* support */
+.support {
+  position: fixed;
+  z-index: 10;
+  bottom: 20px;
+  right: 0;
+  width: 60px;
+  height: 60px;
+}
+.support-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px 0px 0px 10px;
+  -moz-border-radius: 10px 0px 0px 10px;
+  -webkit-border-radius: 10px 0px 0px 10px;
+  border: 0px solid #000000;
+}
 
 @keyframes bounce {
   0% {
