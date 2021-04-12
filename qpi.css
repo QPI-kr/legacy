@@ -350,7 +350,7 @@ footer{
   height: 720px;
   background-position: bottom;
   background-image: url(./images/main-mobile.png);
-  background-size: 70%;
+  /*background-size: 70%;*/
   }
 
   .slogan-content{
