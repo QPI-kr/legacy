@@ -50,7 +50,7 @@ nav a {
   font-size: 56px;
   line-height: 130%;
   text-align: center;
-  
+
   padding-bottom: 5px;
   white-space: nowrap;
 }
@@ -61,7 +61,7 @@ nav a {
   font-size: 36px;
   line-height: 130%;
   text-align: center;
-  
+
   padding-bottom: 20px;
 }
 
@@ -77,7 +77,7 @@ nav a {
   line-height: 130%;
   color: inherit;
   text-align: center;
-  
+
 }
 
 .button-container {
@@ -349,7 +349,7 @@ footer{
   header {
   height: 720px;
   background-position: bottom;
-  background-image: url(./images/main-mobile.png);
+  background-image: url(./images/chat2.png);
   /*background-size: 70%;*/
   }
 
