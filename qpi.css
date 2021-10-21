@@ -17,7 +17,7 @@ header {
   background-color: #DF8181;
   background-position: 95%;
   background-repeat: no-repeat;
-  background-image: url(./images/main.jpeg);
+  background-image: url(./images/chat2.png);
   background-size: contain;
 }
 .header-content {
@@ -51,7 +51,6 @@ nav a {
   line-height: 130%;
   text-align: center;
   
-  color: #FFFFFF;
   padding-bottom: 5px;
   white-space: nowrap;
 }
@@ -263,6 +262,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 0.8rem;
 }
 .reviewer-name {
   font-size: 1.4rem;
